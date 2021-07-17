@@ -1,0 +1,84 @@
+.hero{
+    background-color: rgba(16, 235, 243, 0.931);
+   
+}
+.navbar{
+    height: 50px;
+}
+.content{
+    margin-top: 50px;
+    min-height: calc(100vh - 150px);
+}
+.aside-content{
+    background-color: black;
+    color: white;
+   padding: 10px 10px;
+  
+}
+.footer{
+    width: 100%;
+    
+}
+
+
+.footer-primary{
+    
+    background: darkgrey;
+    color: black;
+    padding: 10px;
+    height: 120px;
+   
+    
+}
+
+
+.footer-primary form{
+    
+    right: 20px;
+    top: 10px;
+    margin-bottom: 30px;
+    
+}
+.footer-primary .sign-up{
+    padding: 5px 10px;
+    background:  rgba(79, 157, 160, 0.931);
+    
+    border: none;
+    margin-left: -5px;
+}
+.footer-primary form input[type=text]{
+    padding: 5px;
+    
+}
+.footer-secondary{
+    height: 50px;
+    background: black;
+    color: white;
+    
+}
+    .nav-main{
+        list-style: none;
+       
+    }
+    .nav-main{
+       display: flex;
+    }
+    .nav-main li{
+        margin-right: 10px;
+    }
+    a{
+        color: white;
+    }
+    
+    
+    
+    
+    
+    @media (max-width: 600px){
+       .nav-main a {
+            color: white !important;
+        }
+        
+        }
+        
+    
